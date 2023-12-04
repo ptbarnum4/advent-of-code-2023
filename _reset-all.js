@@ -22,7 +22,7 @@ const createReadme = (day = 1) => `[Back](../README.md)
 
 # Day ${day}: [Problem Name]
 
-[Code](./index.js) │ [Puzzle Input](./data.txt)
+[Code](./index.js)
 
 ## Part One
 

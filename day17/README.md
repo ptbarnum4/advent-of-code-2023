@@ -2,7 +2,7 @@
 
 # Day 17: [Problem Name]
 
-[Code](./index.js) │ [Puzzle Input](./data.txt)
+[Code](./index.js)
 
 ## Part One
 
