@@ -2,7 +2,7 @@
 
 # Day 04: Scratchcards
 
-[Code](./index.js) │ [Puzzle Input](./data.txt)
+[Code](./index.js)
 
 ## Part One
 
