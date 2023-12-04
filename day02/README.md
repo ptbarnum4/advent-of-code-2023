@@ -2,7 +2,7 @@
 
 # Day 02: Cube Conundrum
 
-[Code](./index.js) │ [Puzzle Input](./data.txt)
+[Code](./index.js)
 
 ## Part One
 
@@ -43,6 +43,7 @@ The Elf says they've stopped producing snow because they aren't getting any _wat
 As you continue your walk, the Elf poses a second question: in each game you played, what is the _fewest number of cubes of each color_ that could have been in the bag to make the game possible?
 
 > Again consider the example games from earlier:
+>
 > ```
 > Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green
 > Game 2: 1 blue, 2 green; 3 green, 4 blue, 1 red; 1 green, 1 blue
