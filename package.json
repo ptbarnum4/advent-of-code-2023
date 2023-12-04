@@ -1,0 +1,21 @@
+{
+  "name": "advent-of-code-2023",
+  "version": "1.0.0",
+  "description": "Advent of Code 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index",
+    "reset-all": "node _reset-all.js",
+    "lint": "eslint . --fix"
+  },
+  "author": "Peter Barnum",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "nodemon": "^3.0.2"
+  }
+}
