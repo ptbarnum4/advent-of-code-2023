@@ -2,7 +2,7 @@
 
 # Day 01: Trebuchet?!
 
-[Code](./index.js) │ [Puzzle Input](./data.txt)
+[Code](./index.js)
 
 ## Part One
 
