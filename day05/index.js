@@ -201,7 +201,7 @@ const day05 = async () => {
       }
     }
     console.log(
-      `Completed range: ${start} - ${end} | Lowest Number: ${smallestLocNum}`
+      `Completed range: ${start} - ${end}`
     );
     console.log('Current Lowest Number:', smallestLocNum);
   });
