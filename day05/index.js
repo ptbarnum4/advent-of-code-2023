@@ -209,7 +209,7 @@ const day05 = async () => {
   console.log('\n[Prompt #1] Lowest Location:', locations);
   console.log('[Prompt #2] Lowest Location: ', smallestLocNum);
 
-  console.log(`\nCompleted in: ${((Date.now() - startTime) / 1000).toFixed(3)} seconds`);
+  console.log(`\nCompleted in: ${((Date.now() - startTime) / 1000).toFixed(3)} seconds\n`);
 };
 
 //* #1: 340994526 // Completed in 0.006 Seconds
