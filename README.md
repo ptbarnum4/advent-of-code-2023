@@ -15,7 +15,7 @@
 </p>
 
 <p align='center'>
-  <a href='https://adventofcode.com/2023/leaderboard/private/view/888042' target='_blank'>
+  <a href='https://adventofcode.com/2023/leaderboard/private/view/808675' target='_blank'>
     <img width='100px' height='auto' src='assets/badges/scoreboard.svg'/>
   </a>
 </p>
