@@ -43,7 +43,7 @@
     <img width='50px' height='auto' src='assets/badges/complete/day6.svg'/>
   </a>
   <a href='day07/README.md'>
-    <img width='50px' height='auto' src='assets/badges/incomplete/day7.svg'/>
+    <img width='50px' height='auto' src='assets/badges/complete/day7.svg'/>
   </a>
 </p>
 
