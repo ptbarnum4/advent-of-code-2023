@@ -2,10 +2,12 @@ const c = require('cli-color');
 
 const passLog = str => console.log(c.greenBright(`${str} => Pass`));
 const failLog = str => console.log(c.redBright(`${str} => Fail`));
-const spacerLog = (str = '', newline = true) =>
+const spacerLog = (str = '', newline = true, preLine = true) =>
   console.log(
     c.magentaBright(
-      `\n-----------${str || ''}-----------${newline ? '\n' : ''}`
+      `${preLine ? '\n' : ''}-----------${str || ''}-----------${
+        newline ? '\n' : ''
+      }`
     )
   );
 const titleLog = (str = '', newline = true) =>
