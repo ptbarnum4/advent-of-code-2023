@@ -98,10 +98,6 @@ While you wait for the sun to rise, you admire the oasis hidden here in the midd
 
 ## Part Two
 
-<article class="day-desc">
-
-## --- Part Two ---
-
 Of course, it would be nice to have _even more history_ included in your report. Surely it's safe to just _extrapolate backwards_ as well, right?
 
 For each history, repeat the process of finding differences until the sequence of differences is entirely zero. Then, rather than adding a zero to the end and filling in the next values of each previous sequence, you should instead add a zero to the _beginning_ of your sequence of zeroes, then fill in new _first_ values for each previous sequence.
