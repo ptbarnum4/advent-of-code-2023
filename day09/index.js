@@ -36,6 +36,6 @@ const day09 = async () => {
   console.log('Total:', history);
 };
 
-//* Part #1: 2101499000
+//* Part #1 => 2101499000
 
 module.exports = day09;
