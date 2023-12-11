@@ -4,19 +4,6 @@ const { testLog, spacerLog, trackTime } = require('../helpers/testing');
 
 const time = trackTime();
 
-const formatNum = n => {
-  if (n === 0) return 0;
-  const num = String(n);
-  const len = num.length;
-  const expLen = len + (3 - (len % 3));
-
-  return [...num.padStart(expLen, '0').matchAll(/\d{3}/g)]
-    .flatMap(([v], i) =>
-      i === 0 ? (!parseInt(v) ? [] : String(parseInt(v))) : v
-    )
-    .join();
-};
-
 /**
  * @typedef {'left'|'right'} LeftRight
  * @typedef {{ value: string; left: string; right: string; }} WastelandNode
@@ -206,7 +193,6 @@ const day08 = async () => {
     6
   )(`(Example #3) Expect: ${stepIntersectEx3} to equal ${6}`);
 
-  // console.log(wastelandEx3.countConcurrentSteps());
   console.log(
     time
       .time()
